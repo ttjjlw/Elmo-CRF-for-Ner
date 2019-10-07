@@ -22,7 +22,7 @@ https://biendata.com/competition/datagrand/
 7. 运行train.py，训练基于Elmo的命名实体识别模型
 8. 运行predict.py，完成测试集的结果输出，输出为比赛要求的格式
 
-### 训练时每隔一定steps会输出验证集：f1score，如果变小则学习率*0.95，并载入最佳模型继续训练
+`训练时每隔一定steps会输出验证集：f1score，如果变小则学习率*0.95，并载入最佳模型继续训练`
 
 ### Result
 
