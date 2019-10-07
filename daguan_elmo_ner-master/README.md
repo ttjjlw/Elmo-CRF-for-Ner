@@ -26,7 +26,8 @@ https://biendata.com/competition/datagrand/
 
 ### Result
 
-线上F-1值91.8
+> 线上F-1值91.8
+> 验证集f1score:90~93
 
 ### Reference
 
