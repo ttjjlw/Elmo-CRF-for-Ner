@@ -1,0 +1,9 @@
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "D:\Python_\lib\site-packages\h5py\_hl\group.py", line 167, in __getitem__
+    oid = h5o.open(self.id, self._e(name), lapl=self._lapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5o.pyx", line 190, in h5py.h5o.open
+KeyError: 'Unable to open object (component not found)'
+原因：options.json中的参数没有和train_elmo.py中的options中的参数一一对应

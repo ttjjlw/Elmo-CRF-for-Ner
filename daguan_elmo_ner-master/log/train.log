@@ -1,0 +1,417 @@
+2019-10-01 19:02:16,667 - log\train.log - INFO - num_tags       :	13
+2019-10-01 19:02:16,667 - log\train.log - INFO - lstm_dim       :	256
+2019-10-01 19:02:16,667 - log\train.log - INFO - batch_size     :	10
+2019-10-01 19:02:16,667 - log\train.log - INFO - max_chars      :	7
+2019-10-01 19:02:16,667 - log\train.log - INFO - clip           :	5.0
+2019-10-01 19:02:16,667 - log\train.log - INFO - dropout_keep   :	0.5
+2019-10-01 19:02:16,667 - log\train.log - INFO - optimizer      :	adam
+2019-10-01 19:02:16,667 - log\train.log - INFO - lr             :	1e-05
+2019-10-01 19:02:16,668 - log\train.log - INFO - tag_schema     :	iobes
+2019-10-01 19:02:16,668 - log\train.log - INFO - pre_emb        :	True
+2019-10-01 19:02:16,668 - log\train.log - INFO - lower          :	True
+2019-10-01 19:02:29,288 - log\train.log - INFO - Created model with fresh parameters.
+2019-10-01 19:02:43,343 - log\train.log - INFO - start training
+2019-10-01 19:03:25,310 - log\train.log - INFO - iteration:1 step:100/1500, NER loss:87.148293
+2019-10-01 19:04:00,053 - log\train.log - INFO - iteration:1 step:200/1500, NER loss:42.538677
+2019-10-01 19:04:40,000 - log\train.log - INFO - iteration:1 step:300/1500, NER loss:35.694019
+2019-10-01 19:05:15,928 - log\train.log - INFO - iteration:1 step:400/1500, NER loss:30.683977
+2019-10-01 19:05:50,127 - log\train.log - INFO - iteration:1 step:500/1500, NER loss:27.212463
+2019-10-01 19:06:23,704 - log\train.log - INFO - iteration:1 step:600/1500, NER loss:24.928944
+2019-10-01 19:06:59,785 - log\train.log - INFO - iteration:1 step:700/1500, NER loss:26.621487
+2019-10-01 19:07:30,973 - log\train.log - INFO - iteration:1 step:800/1500, NER loss:22.035761
+2019-10-01 19:08:05,873 - log\train.log - INFO - iteration:1 step:900/1500, NER loss:23.662437
+2019-10-01 19:08:40,557 - log\train.log - INFO - iteration:1 step:1000/1500, NER loss:21.845322
+2019-10-01 19:09:13,019 - log\train.log - INFO - iteration:1 step:1100/1500, NER loss:20.848326
+2019-10-01 19:09:48,391 - log\train.log - INFO - iteration:1 step:1200/1500, NER loss:21.816833
+2019-10-01 19:10:19,951 - log\train.log - INFO - iteration:1 step:1300/1500, NER loss:17.314835
+2019-10-01 19:10:53,752 - log\train.log - INFO - iteration:1 step:1400/1500, NER loss:18.412003
+2019-10-01 19:11:31,290 - log\train.log - INFO - iteration:2 step:0/1500, NER loss:20.086853
+2019-10-01 19:11:31,290 - log\train.log - INFO - evaluate:test
+2019-10-01 19:12:22,941 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 2121 phrases; correct: 326.
+
+2019-10-01 19:12:22,941 - log\train.log - INFO - accuracy:  90.56%; precision:  15.37%; recall:   8.34%; FB1:  10.82
+
+2019-10-01 19:12:22,942 - log\train.log - INFO -                 a: precision:  12.43%; recall:  11.10%; FB1:  11.73  957
+
+2019-10-01 19:12:22,942 - log\train.log - INFO -                 b: precision:  10.26%; recall:   3.42%; FB1:   5.13  585
+
+2019-10-01 19:12:22,942 - log\train.log - INFO -                 c: precision:  25.39%; recall:  13.62%; FB1:  17.73  579
+
+2019-10-01 19:12:24,251 - log\train.log - INFO - new best test f1 score:10.820
+2019-10-01 19:12:24,332 - log\train.log - INFO - BIOf1score:0.381
+2019-10-01 19:12:39,112 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 19:13:11,088 - log\train.log - INFO - iteration:2 step:100/1500, NER loss:17.629728
+2019-10-01 19:13:46,752 - log\train.log - INFO - iteration:2 step:200/1500, NER loss:18.012800
+2019-10-01 19:14:19,388 - log\train.log - INFO - iteration:2 step:300/1500, NER loss:16.767429
+2019-10-01 19:14:57,883 - log\train.log - INFO - iteration:2 step:400/1500, NER loss:17.680082
+2019-10-01 19:15:32,617 - log\train.log - INFO - iteration:2 step:500/1500, NER loss:16.560850
+2019-10-01 19:16:04,784 - log\train.log - INFO - iteration:2 step:600/1500, NER loss:14.790545
+2019-10-01 19:17:48,939 - log\train.log - INFO - num_tags       :	13
+2019-10-01 19:17:48,939 - log\train.log - INFO - lstm_dim       :	256
+2019-10-01 19:17:48,939 - log\train.log - INFO - batch_size     :	10
+2019-10-01 19:17:48,939 - log\train.log - INFO - max_chars      :	7
+2019-10-01 19:17:48,939 - log\train.log - INFO - clip           :	5.0
+2019-10-01 19:17:48,939 - log\train.log - INFO - dropout_keep   :	0.5
+2019-10-01 19:17:48,939 - log\train.log - INFO - optimizer      :	adam
+2019-10-01 19:17:48,939 - log\train.log - INFO - lr             :	0.001
+2019-10-01 19:17:48,939 - log\train.log - INFO - tag_schema     :	iobes
+2019-10-01 19:17:48,939 - log\train.log - INFO - pre_emb        :	True
+2019-10-01 19:17:48,939 - log\train.log - INFO - lower          :	True
+2019-10-01 19:17:57,217 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt-1500
+2019-10-01 19:17:58,751 - log\train.log - INFO - start training
+2019-10-01 19:18:41,228 - log\train.log - INFO - iteration:2 step:100/1500, NER loss:13.169918
+2019-10-01 19:19:17,140 - log\train.log - INFO - iteration:2 step:200/1500, NER loss: 8.942482
+2019-10-01 19:19:54,111 - log\train.log - INFO - iteration:2 step:300/1500, NER loss: 7.663529
+2019-10-01 19:20:30,724 - log\train.log - INFO - iteration:2 step:400/1500, NER loss: 7.126805
+2019-10-01 19:21:03,829 - log\train.log - INFO - iteration:2 step:500/1500, NER loss: 6.182706
+2019-10-01 19:21:38,800 - log\train.log - INFO - iteration:2 step:600/1500, NER loss: 5.651450
+2019-10-01 19:22:13,303 - log\train.log - INFO - iteration:2 step:700/1500, NER loss: 5.960674
+2019-10-01 19:22:45,973 - log\train.log - INFO - iteration:2 step:800/1500, NER loss: 5.407484
+2019-10-01 19:23:19,659 - log\train.log - INFO - iteration:2 step:900/1500, NER loss: 4.681774
+2019-10-01 19:23:56,092 - log\train.log - INFO - iteration:2 step:1000/1500, NER loss: 4.927711
+2019-10-01 19:24:32,408 - log\train.log - INFO - iteration:2 step:1100/1500, NER loss: 4.910572
+2019-10-01 19:25:06,800 - log\train.log - INFO - iteration:2 step:1200/1500, NER loss: 4.619113
+2019-10-01 19:25:42,534 - log\train.log - INFO - iteration:2 step:1300/1500, NER loss: 4.402947
+2019-10-01 19:26:17,160 - log\train.log - INFO - iteration:2 step:1400/1500, NER loss: 4.463743
+2019-10-01 19:26:55,124 - log\train.log - INFO - iteration:3 step:0/1500, NER loss: 5.051012
+2019-10-01 19:26:55,124 - log\train.log - INFO - evaluate:test
+2019-10-01 19:27:48,800 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3558 phrases; correct: 2900.
+
+2019-10-01 19:27:48,800 - log\train.log - INFO - accuracy:  97.06%; precision:  81.51%; recall:  74.23%; FB1:  77.70
+
+2019-10-01 19:27:48,800 - log\train.log - INFO -                 a: precision:  70.18%; recall:  72.01%; FB1:  71.09  1100
+
+2019-10-01 19:27:48,800 - log\train.log - INFO -                 b: precision:  86.42%; recall:  71.41%; FB1:  78.20  1451
+
+2019-10-01 19:27:48,800 - log\train.log - INFO -                 c: precision:  86.79%; recall:  81.00%; FB1:  83.80  1007
+
+2019-10-01 19:27:50,209 - log\train.log - INFO - new best test f1 score:77.700
+2019-10-01 19:27:50,318 - log\train.log - INFO - BIOf1score:0.8421
+2019-10-01 19:28:01,591 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 19:28:32,648 - log\train.log - INFO - iteration:3 step:100/1500, NER loss: 2.885944
+2019-10-01 19:29:06,957 - log\train.log - INFO - iteration:3 step:200/1500, NER loss: 3.032294
+2019-10-01 19:29:42,007 - log\train.log - INFO - iteration:3 step:300/1500, NER loss: 3.444123
+2019-10-01 19:30:17,908 - log\train.log - INFO - iteration:3 step:400/1500, NER loss: 3.091963
+2019-10-01 19:30:54,077 - log\train.log - INFO - iteration:3 step:500/1500, NER loss: 3.147420
+2019-10-01 19:31:26,920 - log\train.log - INFO - iteration:3 step:600/1500, NER loss: 2.725404
+2019-10-01 19:32:01,258 - log\train.log - INFO - iteration:3 step:700/1500, NER loss: 3.027020
+2019-10-01 19:32:41,007 - log\train.log - INFO - iteration:3 step:800/1500, NER loss: 4.437063
+2019-10-01 19:33:17,283 - log\train.log - INFO - iteration:3 step:900/1500, NER loss: 3.575291
+2019-10-01 19:33:53,123 - log\train.log - INFO - iteration:3 step:1000/1500, NER loss: 2.799873
+2019-10-01 19:34:27,690 - log\train.log - INFO - iteration:3 step:1100/1500, NER loss: 2.659826
+2019-10-01 19:35:00,365 - log\train.log - INFO - iteration:3 step:1200/1500, NER loss: 2.445803
+2019-10-01 19:35:31,660 - log\train.log - INFO - iteration:3 step:1300/1500, NER loss: 2.271833
+2019-10-01 19:36:07,679 - log\train.log - INFO - iteration:3 step:1400/1500, NER loss: 2.902562
+2019-10-01 19:36:42,161 - log\train.log - INFO - iteration:4 step:0/1500, NER loss: 2.816126
+2019-10-01 19:36:42,162 - log\train.log - INFO - evaluate:test
+2019-10-01 19:37:34,578 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3850 phrases; correct: 3253.
+
+2019-10-01 19:37:34,579 - log\train.log - INFO - accuracy:  97.70%; precision:  84.49%; recall:  83.26%; FB1:  83.87
+
+2019-10-01 19:37:34,579 - log\train.log - INFO -                 a: precision:  76.65%; recall:  80.22%; FB1:  78.40  1122
+
+2019-10-01 19:37:34,579 - log\train.log - INFO -                 b: precision:  87.18%; recall:  80.92%; FB1:  83.93  1630
+
+2019-10-01 19:37:34,579 - log\train.log - INFO -                 c: precision:  88.52%; recall:  90.08%; FB1:  89.30  1098
+
+2019-10-01 19:37:35,441 - log\train.log - INFO - new best test f1 score:83.870
+2019-10-01 19:37:35,521 - log\train.log - INFO - BIOf1score:0.8821
+2019-10-01 19:37:47,001 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 19:38:25,233 - log\train.log - INFO - iteration:4 step:100/1500, NER loss: 2.180372
+2019-10-01 19:38:58,160 - log\train.log - INFO - iteration:4 step:200/1500, NER loss: 1.731411
+2019-10-01 19:39:31,191 - log\train.log - INFO - iteration:4 step:300/1500, NER loss: 1.933684
+2019-10-01 19:40:03,882 - log\train.log - INFO - iteration:4 step:400/1500, NER loss: 1.668785
+2019-10-01 19:40:38,653 - log\train.log - INFO - iteration:4 step:500/1500, NER loss: 1.899651
+2019-10-01 19:41:11,124 - log\train.log - INFO - iteration:4 step:600/1500, NER loss: 1.792776
+2019-10-01 19:41:42,642 - log\train.log - INFO - iteration:4 step:700/1500, NER loss: 1.458422
+2019-10-01 19:42:17,285 - log\train.log - INFO - iteration:4 step:800/1500, NER loss: 1.869142
+2019-10-01 19:42:52,862 - log\train.log - INFO - iteration:4 step:900/1500, NER loss: 1.858457
+2019-10-01 19:43:29,556 - log\train.log - INFO - iteration:4 step:1000/1500, NER loss: 2.200709
+2019-10-01 19:44:03,194 - log\train.log - INFO - iteration:4 step:1100/1500, NER loss: 1.782728
+2019-10-01 19:44:40,835 - log\train.log - INFO - iteration:4 step:1200/1500, NER loss: 1.802535
+2019-10-01 19:45:14,536 - log\train.log - INFO - iteration:4 step:1300/1500, NER loss: 1.709740
+2019-10-01 19:45:49,659 - log\train.log - INFO - iteration:4 step:1400/1500, NER loss: 1.821541
+2019-10-01 19:46:26,366 - log\train.log - INFO - iteration:5 step:0/1500, NER loss: 1.735417
+2019-10-01 19:46:26,366 - log\train.log - INFO - evaluate:test
+2019-10-01 19:47:18,644 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3790 phrases; correct: 3304.
+
+2019-10-01 19:47:18,644 - log\train.log - INFO - accuracy:  97.92%; precision:  87.18%; recall:  84.57%; FB1:  85.85
+
+2019-10-01 19:47:18,644 - log\train.log - INFO -                 a: precision:  81.45%; recall:  80.69%; FB1:  81.07  1062
+
+2019-10-01 19:47:18,644 - log\train.log - INFO -                 b: precision:  88.55%; recall:  83.26%; FB1:  85.82  1651
+
+2019-10-01 19:47:18,644 - log\train.log - INFO -                 c: precision:  90.71%; recall:  90.55%; FB1:  90.63  1077
+
+2019-10-01 19:47:19,512 - log\train.log - INFO - new best test f1 score:85.850
+2019-10-01 19:47:19,598 - log\train.log - INFO - BIOf1score:0.8939
+2019-10-01 19:47:30,901 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 19:48:04,134 - log\train.log - INFO - iteration:5 step:100/1500, NER loss: 1.075948
+2019-10-01 19:48:41,686 - log\train.log - INFO - iteration:5 step:200/1500, NER loss: 1.262001
+2019-10-01 19:49:14,158 - log\train.log - INFO - iteration:5 step:300/1500, NER loss: 1.043025
+2019-10-01 19:49:49,668 - log\train.log - INFO - iteration:5 step:400/1500, NER loss: 1.367750
+2019-10-01 19:50:26,134 - log\train.log - INFO - iteration:5 step:500/1500, NER loss: 1.291326
+2019-10-01 19:51:00,776 - log\train.log - INFO - iteration:5 step:600/1500, NER loss: 1.158414
+2019-10-01 19:51:31,694 - log\train.log - INFO - iteration:5 step:700/1500, NER loss: 1.221430
+2019-10-01 19:52:06,475 - log\train.log - INFO - iteration:5 step:800/1500, NER loss: 1.195509
+2019-10-01 19:52:43,512 - log\train.log - INFO - iteration:5 step:900/1500, NER loss: 1.555158
+2019-10-01 19:53:18,013 - log\train.log - INFO - iteration:5 step:1000/1500, NER loss: 1.379472
+2019-10-01 19:53:51,676 - log\train.log - INFO - iteration:5 step:1100/1500, NER loss: 1.176131
+2019-10-01 19:54:24,619 - log\train.log - INFO - iteration:5 step:1200/1500, NER loss: 1.218051
+2019-10-01 19:54:57,186 - log\train.log - INFO - iteration:5 step:1300/1500, NER loss: 1.191418
+2019-10-01 19:55:33,592 - log\train.log - INFO - iteration:5 step:1400/1500, NER loss: 1.351542
+2019-10-01 19:56:08,806 - log\train.log - INFO - iteration:6 step:0/1500, NER loss: 1.270912
+2019-10-01 19:56:08,806 - log\train.log - INFO - evaluate:test
+2019-10-01 19:57:00,774 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3813 phrases; correct: 3327.
+
+2019-10-01 19:57:00,774 - log\train.log - INFO - accuracy:  97.94%; precision:  87.25%; recall:  85.15%; FB1:  86.19
+
+2019-10-01 19:57:00,774 - log\train.log - INFO -                 a: precision:  81.03%; recall:  84.05%; FB1:  82.51  1112
+
+2019-10-01 19:57:00,774 - log\train.log - INFO -                 b: precision:  89.91%; recall:  82.74%; FB1:  86.18  1616
+
+2019-10-01 19:57:00,774 - log\train.log - INFO -                 c: precision:  89.68%; recall:  90.18%; FB1:  89.93  1085
+
+2019-10-01 19:57:01,630 - log\train.log - INFO - new best test f1 score:86.190
+2019-10-01 19:57:01,710 - log\train.log - INFO - BIOf1score:0.8969
+2019-10-01 19:57:12,378 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 19:57:47,673 - log\train.log - INFO - iteration:6 step:100/1500, NER loss: 0.861661
+2019-10-01 19:58:19,021 - log\train.log - INFO - iteration:6 step:200/1500, NER loss: 0.788615
+2019-10-01 19:58:50,232 - log\train.log - INFO - iteration:6 step:300/1500, NER loss: 0.721393
+2019-10-01 19:59:26,688 - log\train.log - INFO - iteration:6 step:400/1500, NER loss: 0.953350
+2019-10-01 20:00:02,239 - log\train.log - INFO - iteration:6 step:500/1500, NER loss: 0.879645
+2019-10-01 20:00:35,559 - log\train.log - INFO - iteration:6 step:600/1500, NER loss: 0.790370
+2019-10-01 20:01:11,932 - log\train.log - INFO - iteration:6 step:700/1500, NER loss: 1.041667
+2019-10-01 20:01:42,464 - log\train.log - INFO - iteration:6 step:800/1500, NER loss: 0.996287
+2019-10-01 20:02:19,137 - log\train.log - INFO - iteration:6 step:900/1500, NER loss: 0.829793
+2019-10-01 20:02:56,662 - log\train.log - INFO - iteration:6 step:1000/1500, NER loss: 1.008205
+2019-10-01 20:03:32,325 - log\train.log - INFO - iteration:6 step:1100/1500, NER loss: 1.091854
+2019-10-01 20:04:06,063 - log\train.log - INFO - iteration:6 step:1200/1500, NER loss: 1.046261
+2019-10-01 20:04:41,831 - log\train.log - INFO - iteration:6 step:1300/1500, NER loss: 1.006929
+2019-10-01 20:05:19,428 - log\train.log - INFO - iteration:6 step:1400/1500, NER loss: 1.123177
+2019-10-01 20:05:52,189 - log\train.log - INFO - iteration:7 step:0/1500, NER loss: 0.930851
+2019-10-01 20:05:52,189 - log\train.log - INFO - evaluate:test
+2019-10-01 20:06:44,363 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3789 phrases; correct: 3323.
+
+2019-10-01 20:06:44,363 - log\train.log - INFO - accuracy:  97.88%; precision:  87.70%; recall:  85.05%; FB1:  86.36
+
+2019-10-01 20:06:44,364 - log\train.log - INFO -                 a: precision:  79.80%; recall:  82.56%; FB1:  81.16  1109
+
+2019-10-01 20:06:44,364 - log\train.log - INFO -                 b: precision:  90.40%; recall:  82.57%; FB1:  86.31  1604
+
+2019-10-01 20:06:44,364 - log\train.log - INFO -                 c: precision:  91.82%; recall:  91.57%; FB1:  91.69  1076
+
+2019-10-01 20:06:45,232 - log\train.log - INFO - new best test f1 score:86.360
+2019-10-01 20:06:45,317 - log\train.log - INFO - BIOf1score:0.893
+2019-10-01 20:06:45,317 - log\train.log - INFO - lr:0.00095
+2019-10-01 20:06:45,324 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt-7500
+2019-10-01 20:07:19,231 - log\train.log - INFO - iteration:6 step:100/1500, NER loss: 0.795006
+2019-10-01 20:07:56,889 - log\train.log - INFO - iteration:6 step:200/1500, NER loss: 0.828687
+2019-10-01 20:08:33,299 - log\train.log - INFO - iteration:6 step:300/1500, NER loss: 0.778125
+2019-10-01 20:09:07,803 - log\train.log - INFO - iteration:6 step:400/1500, NER loss: 0.915977
+2019-10-01 20:09:44,705 - log\train.log - INFO - iteration:6 step:500/1500, NER loss: 0.918363
+2019-10-01 20:10:17,775 - log\train.log - INFO - iteration:6 step:600/1500, NER loss: 0.919141
+2019-10-01 20:10:50,534 - log\train.log - INFO - iteration:6 step:700/1500, NER loss: 0.831684
+2019-10-01 20:11:27,610 - log\train.log - INFO - iteration:6 step:800/1500, NER loss: 0.937078
+2019-10-01 20:12:05,938 - log\train.log - INFO - iteration:6 step:900/1500, NER loss: 1.013093
+2019-10-01 20:12:39,833 - log\train.log - INFO - iteration:6 step:1000/1500, NER loss: 0.868539
+2019-10-01 20:13:13,007 - log\train.log - INFO - iteration:6 step:1100/1500, NER loss: 0.950674
+2019-10-01 20:13:44,766 - log\train.log - INFO - iteration:6 step:1200/1500, NER loss: 0.927339
+2019-10-01 20:14:19,285 - log\train.log - INFO - iteration:6 step:1300/1500, NER loss: 1.097514
+2019-10-01 20:14:53,875 - log\train.log - INFO - iteration:6 step:1400/1500, NER loss: 1.028996
+2019-10-01 20:15:26,227 - log\train.log - INFO - iteration:7 step:0/1500, NER loss: 0.799310
+2019-10-01 20:15:26,227 - log\train.log - INFO - evaluate:test
+2019-10-01 20:16:18,665 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3859 phrases; correct: 3373.
+
+2019-10-01 20:16:18,665 - log\train.log - INFO - accuracy:  98.01%; precision:  87.41%; recall:  86.33%; FB1:  86.87
+
+2019-10-01 20:16:18,665 - log\train.log - INFO -                 a: precision:  87.80%; recall:  80.60%; FB1:  84.05  984
+
+2019-10-01 20:16:18,665 - log\train.log - INFO -                 b: precision:  86.13%; recall:  86.28%; FB1:  86.20  1759
+
+2019-10-01 20:16:18,665 - log\train.log - INFO -                 c: precision:  89.07%; recall:  92.12%; FB1:  90.57  1116
+
+2019-10-01 20:16:19,537 - log\train.log - INFO - new best test f1 score:86.870
+2019-10-01 20:16:19,616 - log\train.log - INFO - BIOf1score:0.8991
+2019-10-01 20:16:30,684 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 20:17:07,209 - log\train.log - INFO - iteration:7 step:100/1500, NER loss: 0.719151
+2019-10-01 20:17:44,600 - log\train.log - INFO - iteration:7 step:200/1500, NER loss: 0.659281
+2019-10-01 20:18:19,411 - log\train.log - INFO - iteration:7 step:300/1500, NER loss: 0.577037
+2019-10-01 20:18:51,288 - log\train.log - INFO - iteration:7 step:400/1500, NER loss: 0.580677
+2019-10-01 20:19:24,002 - log\train.log - INFO - iteration:7 step:500/1500, NER loss: 0.666730
+2019-10-01 20:19:59,465 - log\train.log - INFO - iteration:7 step:600/1500, NER loss: 0.704179
+2019-10-01 20:20:34,567 - log\train.log - INFO - iteration:7 step:700/1500, NER loss: 0.715188
+2019-10-01 20:21:08,159 - log\train.log - INFO - iteration:7 step:800/1500, NER loss: 0.684929
+2019-10-01 20:21:42,327 - log\train.log - INFO - iteration:7 step:900/1500, NER loss: 0.705697
+2019-10-01 20:22:17,524 - log\train.log - INFO - iteration:7 step:1000/1500, NER loss: 0.684976
+2019-10-01 20:22:50,011 - log\train.log - INFO - iteration:7 step:1100/1500, NER loss: 0.692740
+2019-10-01 20:23:28,210 - log\train.log - INFO - iteration:7 step:1200/1500, NER loss: 0.862441
+2019-10-01 20:24:03,042 - log\train.log - INFO - iteration:7 step:1300/1500, NER loss: 0.724107
+2019-10-01 20:24:38,380 - log\train.log - INFO - iteration:7 step:1400/1500, NER loss: 0.757149
+2019-10-01 20:25:10,947 - log\train.log - INFO - iteration:8 step:0/1500, NER loss: 0.757589
+2019-10-01 20:25:10,947 - log\train.log - INFO - evaluate:test
+2019-10-01 20:26:03,308 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3999 phrases; correct: 3405.
+
+2019-10-01 20:26:03,309 - log\train.log - INFO - accuracy:  97.88%; precision:  85.15%; recall:  87.15%; FB1:  86.14
+
+2019-10-01 20:26:03,309 - log\train.log - INFO -                 a: precision:  80.94%; recall:  83.58%; FB1:  82.24  1107
+
+2019-10-01 20:26:03,309 - log\train.log - INFO -                 b: precision:  85.08%; recall:  86.39%; FB1:  85.73  1783
+
+2019-10-01 20:26:03,309 - log\train.log - INFO -                 c: precision:  89.45%; recall:  91.94%; FB1:  90.68  1109
+
+2019-10-01 20:26:03,389 - log\train.log - INFO - BIOf1score:0.8931
+2019-10-01 20:26:03,389 - log\train.log - INFO - lr:0.0009025
+2019-10-01 20:26:03,394 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt-9000
+2019-10-01 20:26:41,489 - log\train.log - INFO - iteration:7 step:100/1500, NER loss: 0.591634
+2019-10-01 20:27:17,981 - log\train.log - INFO - iteration:7 step:200/1500, NER loss: 0.681155
+2019-10-01 20:27:50,527 - log\train.log - INFO - iteration:7 step:300/1500, NER loss: 0.530319
+2019-10-01 20:28:24,096 - log\train.log - INFO - iteration:7 step:400/1500, NER loss: 0.630114
+2019-10-01 20:28:59,028 - log\train.log - INFO - iteration:7 step:500/1500, NER loss: 0.718772
+2019-10-01 20:29:34,782 - log\train.log - INFO - iteration:7 step:600/1500, NER loss: 0.767303
+2019-10-01 20:30:06,592 - log\train.log - INFO - iteration:7 step:700/1500, NER loss: 0.667162
+2019-10-01 20:30:42,404 - log\train.log - INFO - iteration:7 step:800/1500, NER loss: 0.656504
+2019-10-01 20:31:15,834 - log\train.log - INFO - iteration:7 step:900/1500, NER loss: 0.761766
+2019-10-01 20:31:52,918 - log\train.log - INFO - iteration:7 step:1000/1500, NER loss: 0.722109
+2019-10-01 20:32:27,204 - log\train.log - INFO - iteration:7 step:1100/1500, NER loss: 0.765750
+2019-10-01 20:33:00,350 - log\train.log - INFO - iteration:7 step:1200/1500, NER loss: 0.769063
+2019-10-01 20:33:35,273 - log\train.log - INFO - iteration:7 step:1300/1500, NER loss: 0.870530
+2019-10-01 20:34:09,366 - log\train.log - INFO - iteration:7 step:1400/1500, NER loss: 0.755342
+2019-10-01 20:34:46,200 - log\train.log - INFO - iteration:8 step:0/1500, NER loss: 0.779189
+2019-10-01 20:34:46,200 - log\train.log - INFO - evaluate:test
+2019-10-01 20:35:38,665 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3855 phrases; correct: 3379.
+
+2019-10-01 20:35:38,666 - log\train.log - INFO - accuracy:  98.01%; precision:  87.65%; recall:  86.49%; FB1:  87.07
+
+2019-10-01 20:35:38,666 - log\train.log - INFO -                 a: precision:  84.80%; recall:  81.16%; FB1:  82.94  1026
+
+2019-10-01 20:35:38,666 - log\train.log - INFO -                 b: precision:  87.10%; recall:  86.50%; FB1:  86.80  1744
+
+2019-10-01 20:35:38,666 - log\train.log - INFO -                 c: precision:  91.24%; recall:  91.75%; FB1:  91.50  1085
+
+2019-10-01 20:35:39,512 - log\train.log - INFO - new best test f1 score:87.070
+2019-10-01 20:35:39,609 - log\train.log - INFO - BIOf1score:0.8973
+2019-10-01 20:35:51,049 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 20:36:25,831 - log\train.log - INFO - iteration:8 step:100/1500, NER loss: 0.561328
+2019-10-01 20:36:59,149 - log\train.log - INFO - iteration:8 step:200/1500, NER loss: 0.492334
+2019-10-01 20:37:32,792 - log\train.log - INFO - iteration:8 step:300/1500, NER loss: 0.457498
+2019-10-01 20:38:09,441 - log\train.log - INFO - iteration:8 step:400/1500, NER loss: 0.455268
+2019-10-01 20:38:45,482 - log\train.log - INFO - iteration:8 step:500/1500, NER loss: 0.564210
+2019-10-01 20:39:17,463 - log\train.log - INFO - iteration:8 step:600/1500, NER loss: 0.513662
+2019-10-01 20:39:48,383 - log\train.log - INFO - iteration:8 step:700/1500, NER loss: 0.652610
+2019-10-01 20:40:18,512 - log\train.log - INFO - iteration:8 step:800/1500, NER loss: 0.420007
+2019-10-01 20:40:57,744 - log\train.log - INFO - iteration:8 step:900/1500, NER loss: 0.645097
+2019-10-01 20:41:34,884 - log\train.log - INFO - iteration:8 step:1000/1500, NER loss: 0.569561
+2019-10-01 20:42:11,212 - log\train.log - INFO - iteration:8 step:1100/1500, NER loss: 0.602292
+2019-10-01 20:42:45,711 - log\train.log - INFO - iteration:8 step:1200/1500, NER loss: 0.617550
+2019-10-01 20:43:22,812 - log\train.log - INFO - iteration:8 step:1300/1500, NER loss: 0.741275
+2019-10-01 20:43:57,528 - log\train.log - INFO - iteration:8 step:1400/1500, NER loss: 0.706145
+2019-10-01 20:44:31,446 - log\train.log - INFO - iteration:9 step:0/1500, NER loss: 0.859562
+2019-10-01 20:44:31,446 - log\train.log - INFO - evaluate:test
+2019-10-01 20:45:23,885 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3853 phrases; correct: 3343.
+
+2019-10-01 20:45:23,885 - log\train.log - INFO - accuracy:  97.95%; precision:  86.76%; recall:  85.56%; FB1:  86.16
+
+2019-10-01 20:45:23,885 - log\train.log - INFO -                 a: precision:  82.71%; recall:  82.09%; FB1:  82.40  1064
+
+2019-10-01 20:45:23,885 - log\train.log - INFO -                 b: precision:  87.52%; recall:  84.28%; FB1:  85.87  1691
+
+2019-10-01 20:45:23,885 - log\train.log - INFO -                 c: precision:  89.53%; recall:  91.10%; FB1:  90.31  1098
+
+2019-10-01 20:45:23,975 - log\train.log - INFO - BIOf1score:0.8957
+2019-10-01 20:45:23,975 - log\train.log - INFO - lr:0.000857375
+2019-10-01 20:45:23,980 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt-10500
+2019-10-01 20:46:01,618 - log\train.log - INFO - iteration:8 step:100/1500, NER loss: 0.556786
+2019-10-01 20:46:34,978 - log\train.log - INFO - iteration:8 step:200/1500, NER loss: 0.444660
+2019-10-01 20:47:09,504 - log\train.log - INFO - iteration:8 step:300/1500, NER loss: 0.478267
+2019-10-01 20:47:44,140 - log\train.log - INFO - iteration:8 step:400/1500, NER loss: 0.558631
+2019-10-01 20:48:21,054 - log\train.log - INFO - iteration:8 step:500/1500, NER loss: 0.647765
+2019-10-01 20:48:52,953 - log\train.log - INFO - iteration:8 step:600/1500, NER loss: 0.633552
+2019-10-01 20:49:30,571 - log\train.log - INFO - iteration:8 step:700/1500, NER loss: 0.530336
+2019-10-01 20:50:06,424 - log\train.log - INFO - iteration:8 step:800/1500, NER loss: 0.627013
+2019-10-01 20:50:40,664 - log\train.log - INFO - iteration:8 step:900/1500, NER loss: 0.677122
+2019-10-01 20:51:16,399 - log\train.log - INFO - iteration:8 step:1000/1500, NER loss: 0.705086
+2019-10-01 20:51:51,280 - log\train.log - INFO - iteration:8 step:1100/1500, NER loss: 0.513842
+2019-10-01 20:52:27,192 - log\train.log - INFO - iteration:8 step:1200/1500, NER loss: 0.691170
+2019-10-01 20:53:00,892 - log\train.log - INFO - iteration:8 step:1300/1500, NER loss: 0.561237
+2019-10-01 20:53:33,981 - log\train.log - INFO - iteration:8 step:1400/1500, NER loss: 0.545212
+2019-10-01 20:54:04,585 - log\train.log - INFO - iteration:9 step:0/1500, NER loss: 0.504921
+2019-10-01 20:54:04,585 - log\train.log - INFO - evaluate:test
+2019-10-01 20:54:56,987 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3931 phrases; correct: 3435.
+
+2019-10-01 20:54:56,987 - log\train.log - INFO - accuracy:  98.10%; precision:  87.38%; recall:  87.92%; FB1:  87.65
+
+2019-10-01 20:54:56,987 - log\train.log - INFO -                 a: precision:  84.77%; recall:  82.56%; FB1:  83.65  1044
+
+2019-10-01 20:54:56,988 - log\train.log - INFO -                 b: precision:  85.63%; recall:  88.90%; FB1:  87.23  1823
+
+2019-10-01 20:54:56,988 - log\train.log - INFO -                 c: precision:  92.95%; recall:  91.66%; FB1:  92.30  1064
+
+2019-10-01 20:54:57,838 - log\train.log - INFO - new best test f1 score:87.650
+2019-10-01 20:54:57,920 - log\train.log - INFO - BIOf1score:0.9034
+2019-10-01 20:55:08,983 - log\train.log - INFO - model saved in ckpt\ner.ckpt
+2019-10-01 20:55:42,759 - log\train.log - INFO - iteration:9 step:100/1500, NER loss: 0.389872
+2019-10-01 20:56:17,315 - log\train.log - INFO - iteration:9 step:200/1500, NER loss: 0.420875
+2019-10-01 20:56:53,276 - log\train.log - INFO - iteration:9 step:300/1500, NER loss: 0.433713
+2019-10-01 20:57:31,185 - log\train.log - INFO - iteration:9 step:400/1500, NER loss: 0.433561
+2019-10-01 20:58:08,837 - log\train.log - INFO - iteration:9 step:500/1500, NER loss: 0.567639
+2019-10-01 20:58:38,871 - log\train.log - INFO - iteration:9 step:600/1500, NER loss: 0.361072
+2019-10-01 20:59:12,629 - log\train.log - INFO - iteration:9 step:700/1500, NER loss: 0.430589
+2019-10-01 20:59:44,101 - log\train.log - INFO - iteration:9 step:800/1500, NER loss: 0.407090
+2019-10-01 21:00:16,455 - log\train.log - INFO - iteration:9 step:900/1500, NER loss: 0.452704
+2019-10-01 21:00:52,889 - log\train.log - INFO - iteration:9 step:1000/1500, NER loss: 0.474721
+2019-10-01 21:01:29,383 - log\train.log - INFO - iteration:9 step:1100/1500, NER loss: 0.553618
+2019-10-01 21:02:06,161 - log\train.log - INFO - iteration:9 step:1200/1500, NER loss: 0.691798
+2019-10-01 21:02:39,921 - log\train.log - INFO - iteration:9 step:1300/1500, NER loss: 0.516509
+2019-10-01 21:03:16,046 - log\train.log - INFO - iteration:9 step:1400/1500, NER loss: 0.573189
+2019-10-01 21:03:48,646 - log\train.log - INFO - iteration:10 step:0/1500, NER loss: 0.506032
+2019-10-01 21:03:48,646 - log\train.log - INFO - evaluate:test
+2019-10-01 21:04:40,961 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3826 phrases; correct: 3377.
+
+2019-10-01 21:04:40,962 - log\train.log - INFO - accuracy:  98.07%; precision:  88.26%; recall:  86.43%; FB1:  87.34
+
+2019-10-01 21:04:40,962 - log\train.log - INFO -                 a: precision:  83.30%; recall:  82.84%; FB1:  83.07  1066
+
+2019-10-01 21:04:40,962 - log\train.log - INFO -                 b: precision:  88.92%; recall:  85.48%; FB1:  87.17  1688
+
+2019-10-01 21:04:40,962 - log\train.log - INFO -                 c: precision:  92.16%; recall:  91.57%; FB1:  91.86  1072
+
+2019-10-01 21:04:41,042 - log\train.log - INFO - BIOf1score:0.9028
+2019-10-01 21:04:41,042 - log\train.log - INFO - lr:0.0008145062499999999
+2019-10-01 21:04:41,047 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt-12000
+2019-10-01 21:05:21,039 - log\train.log - INFO - iteration:9 step:100/1500, NER loss: 0.382946
+2019-10-01 21:05:56,951 - log\train.log - INFO - iteration:9 step:200/1500, NER loss: 0.436481
+2019-10-01 21:06:31,703 - log\train.log - INFO - iteration:9 step:300/1500, NER loss: 0.484508
+2019-10-01 21:07:04,805 - log\train.log - INFO - iteration:9 step:400/1500, NER loss: 0.407430
+2019-10-01 21:07:40,002 - log\train.log - INFO - iteration:9 step:500/1500, NER loss: 0.428242
+2019-10-01 21:08:13,259 - log\train.log - INFO - iteration:9 step:600/1500, NER loss: 0.535833
+2019-10-01 21:08:49,316 - log\train.log - INFO - iteration:9 step:700/1500, NER loss: 0.492200
+2019-10-01 21:09:23,264 - log\train.log - INFO - iteration:9 step:800/1500, NER loss: 0.488097
+2019-10-01 21:09:58,819 - log\train.log - INFO - iteration:9 step:900/1500, NER loss: 0.506186
+2019-10-01 21:10:32,711 - log\train.log - INFO - iteration:9 step:1000/1500, NER loss: 0.369630
+2019-10-01 21:11:07,684 - log\train.log - INFO - iteration:9 step:1100/1500, NER loss: 0.558937
+2019-10-01 21:11:39,409 - log\train.log - INFO - iteration:9 step:1200/1500, NER loss: 0.591618
+2019-10-01 21:12:12,746 - log\train.log - INFO - iteration:9 step:1300/1500, NER loss: 0.636843
+2019-10-01 21:12:47,295 - log\train.log - INFO - iteration:9 step:1400/1500, NER loss: 0.492466
+2019-10-01 21:13:21,252 - log\train.log - INFO - iteration:10 step:0/1500, NER loss: 0.497573
+2019-10-01 21:13:21,252 - log\train.log - INFO - evaluate:test
+2019-10-01 21:14:13,574 - log\train.log - INFO - processed 101729 tokens with 3907 phrases; found: 3940 phrases; correct: 3412.
+
+2019-10-01 21:14:13,574 - log\train.log - INFO - accuracy:  98.02%; precision:  86.60%; recall:  87.33%; FB1:  86.96
+
+2019-10-01 21:14:13,574 - log\train.log - INFO -                 a: precision:  84.08%; recall:  84.24%; FB1:  84.16  1074
+
+2019-10-01 21:14:13,575 - log\train.log - INFO -                 b: precision:  88.46%; recall:  85.54%; FB1:  86.97  1698
+
+2019-10-01 21:14:13,575 - log\train.log - INFO -                 c: precision:  86.22%; recall:  93.33%; FB1:  89.63  1168
+
+2019-10-01 21:14:13,654 - log\train.log - INFO - BIOf1score:0.9006
+2019-10-01 21:14:13,654 - log\train.log - INFO - lr:0.0007737809374999998
+2019-10-01 21:14:13,659 - log\train.log - INFO - Reading model parameters from ckpt\ner.ckpt-12000
+2019-10-01 21:14:48,927 - log\train.log - INFO - iteration:9 step:100/1500, NER loss: 0.425396
+2019-10-01 21:15:24,680 - log\train.log - INFO - iteration:9 step:200/1500, NER loss: 0.492375
+2019-10-01 21:15:58,046 - log\train.log - INFO - iteration:9 step:300/1500, NER loss: 0.367536
+2019-10-01 21:16:33,843 - log\train.log - INFO - iteration:9 step:400/1500, NER loss: 0.421173
+2019-10-01 21:17:08,224 - log\train.log - INFO - iteration:9 step:500/1500, NER loss: 0.487844
+2019-10-01 21:17:43,171 - log\train.log - INFO - iteration:9 step:600/1500, NER loss: 0.447914
+2019-10-01 21:18:18,826 - log\train.log - INFO - iteration:9 step:700/1500, NER loss: 0.496994
